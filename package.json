@@ -1,0 +1,8 @@
+{
+  "name": "shattered-realm-repo",
+  "private": true,
+  "scripts": {
+    "build": "npm install --prefix shattered-realm-web && npm run build --prefix shattered-realm-web",
+    "dev": "npm run dev --prefix shattered-realm-web"
+  }
+}
